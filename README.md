@@ -20,7 +20,7 @@ Before:
 p := pool.New().WithErrors().WithContext(ctx)
 
 p.Go(func(ctx context.Context) error {
-    _, err := dag.Container.Sync(ctx)
+    _, err := dag.Container().Sync(ctx)
 
     return err
 })
