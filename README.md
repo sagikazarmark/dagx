@@ -2,7 +2,7 @@
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sagikazarmark/dagx/ci.yaml?style=flat-square)](https://github.com/sagikazarmark/dagx/actions/workflows/ci.yaml)
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/mod/github.com/sagikazarmark/dagx)
-![Go Version](https://img.shields.io/badge/go%20version-%3E=1.20-61CFDD.svg?style=flat-square)
+![Go Version](https://img.shields.io/badge/go%20version-%3E=1.22-61CFDD.svg?style=flat-square)
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 
 **Simple utilities for working with the Dagger Go SDK.**
