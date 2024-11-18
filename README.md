@@ -14,7 +14,9 @@
 Use the `pipeline` package to run a bunch of jobs in parallel.
 It's especially useful to wrap a number of objects implementing a `Sync` function (like containers, directories, files).
 
-<details><summary>Before</summary><br><pre>
+Before:
+
+```go
 p := pool.New().WithErrors().WithContext(ctx)
 
 p.Go(func(ctx context.Context) error {
@@ -24,7 +26,7 @@ p.Go(func(ctx context.Context) error {
 })
 
 p.Wait()
-</pre></details>
+```
 
 After:
 
