@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Set up Nix
-        uses: cachix/install-nix-action@91a071959513ca103b54280ac0bef5b825791d4d # v31
+        uses: cachix/install-nix-action@48cf9b584964ef5392f873d37873fb6476b7ecdd # v31
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
@@ -41,7 +41,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Set up Nix
-        uses: cachix/install-nix-action@91a071959513ca103b54280ac0bef5b825791d4d # v31
+        uses: cachix/install-nix-action@48cf9b584964ef5392f873d37873fb6476b7ecdd # v31
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
@@ -61,7 +61,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Set up Nix
-        uses: cachix/install-nix-action@91a071959513ca103b54280ac0bef5b825791d4d # v31
+        uses: cachix/install-nix-action@48cf9b584964ef5392f873d37873fb6476b7ecdd # v31
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
